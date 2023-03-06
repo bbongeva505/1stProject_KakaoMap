@@ -1,0 +1,140 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+/* body {
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+} */
+
+#map {
+  margin: 0 auto;
+  max-width: 10000px;
+  text-align: center;
+}
+
+#container h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0.3125em 0;
+  background-color: #ffffff;
+  position: relative;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.style-1 {
+  font-family: "Pacifico", sans-serif;
+  text-transform: none!important;
+}
+
+.style-2 {
+  font-family: "Open Sans Condensed", sans-serif;
+
+}
+
+.style-3 {
+  font-family: "Oswald", sans-serif;
+}
+
+.style-1:before {
+  content: "";
+  height: 3px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  position: absolute;
+  width: 300%;
+  top: 50%;
+  left: -100%;
+  z-index: -999;
+}
+
+.style-2:before {
+  content: "";
+  height: 3px;
+  border-top: 2px dotted white;
+  border-bottom: 2px dotted white;
+  position: absolute;
+  width: 300%;
+  top: 45%;
+  left: -100%;
+  z-index: -999;
+}
+
+.style-3:before {
+  content: "";
+  border-top: 1px solid white;
+  position: absolute;
+  width: 300%;
+  top: 35%;
+  left: -100%;
+  z-index: -999;
+}
+
+.style-3:after {
+  content: "";
+  border-bottom: 1px solid white;
+  position: absolute;
+  width: 300%;
+  bottom: 35%;
+  left: -100%;
+  z-index: -999;
+}
+
+a{
+  text-decoration-line: none;   
+}
